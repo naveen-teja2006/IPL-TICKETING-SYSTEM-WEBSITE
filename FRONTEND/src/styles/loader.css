@@ -1,0 +1,20 @@
+.loader{
+    display:flex;
+    justify-self:center;
+    align-self:center;
+    margin-top:30vh;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid black;
+    border-top:5px solid red;
+    animation:spin 1s linear infinite;
+}
+@keyframes spin{
+    from{
+        tranform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

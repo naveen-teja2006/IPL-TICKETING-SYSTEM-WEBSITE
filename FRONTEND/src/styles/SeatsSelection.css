@@ -1,0 +1,20 @@
+.seats-container{
+    color:white;
+    display:flex;
+    /* justify-content:space-around; */
+}
+
+.seat{
+    height:60px;
+    cursor:pointer;
+    font-size:18px;
+    border:none;
+}
+
+.available{
+    background:green;
+}
+.booked{
+    background:red;
+    cursor:not-allowed;
+}

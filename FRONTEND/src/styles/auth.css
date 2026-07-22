@@ -1,0 +1,79 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 25px;
+    min-width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.form-group {
+    display: flex;
+    color: white;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.login-form input {
+    /* align-items: center; */
+    padding: 8px;
+    border: 0px solid;
+    border-radius:5px;
+    box-shadow: 0px 0px 4px 0px;
+    width: 100%;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 10px;
+    color: white;
+    background:red;
+    box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+
+.login-form button:hover {
+    background: rgb(163, 3, 3);
+}
+
+.legend {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.register-here-link {
+    color: white;
+    text-align: center;
+}
+
+.register-link {
+    color: red;
+}
+
+.sign-link {
+    color: red;
+}
+
+.register-here-link a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}

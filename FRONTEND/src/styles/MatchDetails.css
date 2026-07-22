@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.go-back-btn {
+    color: white;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.match-details-section {
+    display: flex;
+    justify-content: center;
+}
+
+.each-match-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    width: 600px;
+    min-height: 600px;
+    scale:0.85;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.each-match-card .each-match-card-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.each-match-card .each-match-card-btn {
+    background: red;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    border: 0px solid;
+    color: white;
+}
+
+.each-match-card .each-match-card-btn:hover{
+    background:rgb(185, 6, 6);
+}

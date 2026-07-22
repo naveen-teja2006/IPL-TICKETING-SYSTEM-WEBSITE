@@ -1,0 +1,25 @@
+.bookings-page{
+    color:white;
+    background:rgba(255,255,255,0.3);
+    padding:15px;
+    border-radius:10px;
+    /* height:300px; */
+}
+.bookings-section{
+    height:74vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.go-back-btn{
+    margin: 10px;
+}
+.bookings-page button{
+    color:white;
+    background: red;
+    border:0px solid;
+    border-radius: 5px;
+    padding:10px;
+    width:100%;
+}

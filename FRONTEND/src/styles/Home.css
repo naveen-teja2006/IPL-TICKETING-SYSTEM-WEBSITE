@@ -1,0 +1,36 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.upcoming-matches-title{
+    text-align:center;
+    color:white;
+}
+
+.upcoming-matches-title span{
+    color:red;
+    text-decoration:underline;
+}
+
+.upcoming-matches-all-cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.teams-list-title{
+    color:white;
+    text-align: center;
+}
+
+.teams-list-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.teams-list-section p{
+    color:white;
+    background:red;
+    border-radius:10px;
+    padding:15px;
+    box-shadow: 0px 0px 20px 0px red;
+}
